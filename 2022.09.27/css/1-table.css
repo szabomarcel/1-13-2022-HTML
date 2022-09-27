@@ -1,0 +1,45 @@
+table{border: 1px solid color black }
+            table{background-color: #f5f5f5;}
+            table{border-radius: 10px;}
+            table{padding: 10px;}
+            table{border-style: groove;}
+            table{width: 50%;}
+            
+            tr td{
+                border: solid 1px
+            }
+            th{
+                text-align: left;
+             }
+
+            td{border: 1px solid; color: black;}
+            td{border-radius: 10px;}
+            td{/*padding: 10px;*/}
+            td{border-style: groove;}
+            td{width: 50%;}}
+            td{border15p}
+           
+            table, th, td {  border: 1px solid;color: black;}
+            table{border-radius: 10px;}
+            table{/*padding: 10px;*/}
+            table{border-style: groove;}
+            table{width: 50%;}      
+           
+            #kiemelt{
+                background-color: red;
+                visibility: collapse;
+             } 
+             th{border: 1px solid color black }
+            th{background-color: #f5f5f5;}
+            th{border-radius: 10px;}
+            th{padding: 10px;}
+            th{border-style: groove;}
+            th{width: 50%;}
+            th{text-align: left;}
+            .bekezdések{
+                color:blue
+            }
+            .fontos{font-weight: bold;
+            font-style:italic ;
+            color:green
+            }
