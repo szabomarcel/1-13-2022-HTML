@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang.hu>
+    <head>
+        <meta name="Author" content="Szb Mrcll">
+        <meta name="leywords" content="html gyakorlas"> 
+        <meta name="description" content="Gyakorló feladat html">
+        <title>Táblázat minat</title>
+        <link rel="stylesheet" href="1-table.css">
+        <!--Relativ elérési út-->
+        <link rel="stylesheet" href="css/1-table.css">
+        <!--Anszolút elérési út-->
+        <link rel="stylesheet" href="C:/Users/2022238/1-13-2022-HTML/2022.09.27/css/1-table.css">
+        
+        <body>
+        <h1>Táblázat gyakorlás</h1>
+            <table>
+                <tr>
+                <colgroup>
+                    <col span="3">
+                    <col span="3" id= "kiemelt">    
+                </colgroup>
+                    <th>1.fejléc</th>
+                    <th colspan="2">2.fejléc</th>
+                    <!--<th>3.fejléc</th>-->
+                    <th>4.fejléc</th>
+                    <th>5.fejléc</th>    
+                    <th>6.fejléc</th>
+                </tr>
+                <tr>
+                    <!--<th>2.merő</th>--> 
+                    <th rowspan="2">2.mező</th>
+                    <th>2.mező</th>
+                    <th>3.mező</th>
+                    <th>4.mező</th>
+                    <th>5.mező</th>
+                </tr>
+                <tr>
+                    <!--<th>3.sor</th>-->
+                    <th>2.mező</th>
+                    <th>3.mező</th>
+                    <th>4.mező</th>
+                    <th>5.mező</th>
+                    <th>6.mező</th>
+                </tr>
+            </table>
+            <div class="bekezdések">
+                <h2>1.Bekezdés:</h2>
+                <p>Lorem ipsum dolor sit amet<span class="fontos">consectetur</span> adipisicing elit. Laborum et debitis modi esse sit? Aliquam, placeat quaerat? Ratione, dignissimos porro?</p>
+                <h2>2.Bekezdés:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <span class="fontos">adipisicing</span> elit. Quam, nemo omnis suscipit velit quidem facere et cumque asperiores libero optio aperiam itaque quae at dolores.</p>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJPTD09YUH8PsXBg2QNi414cnxA0shgIklg&usqp=CAU" alt="Itt egy scania kell lennie" title="Ez egy kamion" width="800" height="600">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM_u_VDu1uZ8lA2FQiDMDJmXvSRrYCfRQZHg&usqp=CAU" alt="Itt egy scania kell lennie" title="Ez egy kamion" width="800" height="600">
+            </div> 
+        </body>
+    </head>
+</html>

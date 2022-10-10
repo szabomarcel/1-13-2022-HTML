@@ -1,0 +1,24 @@
+tr{
+padding: 10px;
+}
+
+td{
+border: 2px solid black;
+}
+
+.kép{
+    width: 125px;
+}
+
+.szin{
+
+}
+
+h1{
+    color: #999999
+}
+
+.jobb{
+text-align: red;
+}
+
