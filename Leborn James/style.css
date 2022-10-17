@@ -3,22 +3,42 @@ padding: 10px;
 }
 
 td{
-border: 2px solid black;
+border: 0px solid black;
 }
 
 .kép{
     width: 125px;
 }
 
-.szin{
-
+h1{
+    color: #999999;
+    text-align: left; 
 }
 
-h1{
-    color: #999999
+img{
+    text-align: center;
 }
 
 .jobb{
-text-align: red;
+    text-align: red;
 }
 
+.bal{
+    text-align: black;
+}
+
+table, tr, td{
+    border: 0px solid #000
+/*border-spacing: 40px*/; 
+    text-align: right;
+}
+
+td{
+    text-align: left;
+}
+
+p {
+    text-indent: 10px;
+    text-align: justify;
+    text-decoration: dotted;
+  }
