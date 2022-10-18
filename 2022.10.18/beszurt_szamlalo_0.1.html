@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>counter-reset és counter-increemnt</title>
+</head>
+<style>
+    body{
+        counter-reset: szamlalo;
+    }
+    p::before{
+        counter-increment: szamszalo;
+        content: "Bekezdés "counter(szamlalo)".";
+    }
+</style>
+<body>
+    <p>A bekezdés szövege...</p>
+    <p>A bekezdés szövege...</p>
+    <p>A bekezdés szövege...</p>
+</body>
+</html>
