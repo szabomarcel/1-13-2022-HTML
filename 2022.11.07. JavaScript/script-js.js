@@ -1,0 +1,1 @@
+document.write("Ezt a srcipt.js írta ki <BR>");
