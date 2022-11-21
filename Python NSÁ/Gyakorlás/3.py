@@ -1,0 +1,1 @@
+print("Mit nevezel foghíjas medvének?\nA gumimaci!")
