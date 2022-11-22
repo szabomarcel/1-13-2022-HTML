@@ -1,0 +1,4 @@
+(a) 3 == 3  3 azonos 3-mal
+(b) 3 != 3  3 nem azonos 3-mal
+(c) 3 >= 4  3 nem nagyobb 4-gyel
+(d) not. (3 < 4) nem. ha 3 nem kissbb 4-nél

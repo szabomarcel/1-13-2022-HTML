@@ -1,0 +1,9 @@
+p q r (not(p and q)) or r
+F F F t
+F F T t
+F T F t
+F T T t
+T F F t
+T F T t
+T T F f
+T T T t
