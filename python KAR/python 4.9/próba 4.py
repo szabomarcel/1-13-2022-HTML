@@ -3,20 +3,22 @@ import turtle
 screen = turtle.Screen()
 teknos = turtle.Turtle()
 
-def négyzet(oldal):
+def féloldal(t, hossz):
+    t.forward(hossz)
+    t.left(90)
+
+def négyzet(t, oldal):
     for i in range(2):
-        teknos.forward(oldal / 2)
-        teknos.left(90)
+        féloldal(t, oldal / 2)
+        
     for i in range(3):
-        teknos.forward(oldal)
-        teknos.left(90)
+        féloldal(t, oldal)
     
-    teknos.forward(oldal / 2)
-    teknos.left(90)
-    teknos.forward(oldal / 2)
+    féloldal(t, oldal / 2)
+    t.forward(oldal / 2)
 
 for i in range(24): 
-    négyzet(50)
+    négyzet(teknos, 50)
     teknos.left(15)
 
 teknos.hideturtle()

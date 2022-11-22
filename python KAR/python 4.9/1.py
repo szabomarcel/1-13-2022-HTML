@@ -2,17 +2,18 @@ import turtle
 
 screen = turtle.Screen()
 teknos = turtle.Turtle()
+oldal = 20
 
-class Forma:
-    def Négyzet():
-        turtle.pendown()
-        for x in range(0,4):
-            turtle.left(90)
-            turtle.forward(20)
-        turtle.penup()
+def Négyzet(oldal):
+    turtle.pendown()
+    for x in range(99,103):
+        turtle.left(90)
+        turtle.forward(oldal)
+    turtle.penup()
 
-        for x in range(0,5):
-            Forma.Négyzet()
-            turtle.forward(40)
-
+teknos.hideturtle()
+for x in range(1,5):
+    Négyzet(oldal)
+    turtle.forward(oldal * 2)
+    oldal += 10
 screen.mainloop()

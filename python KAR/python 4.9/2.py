@@ -6,23 +6,22 @@ szélesség = 20
 screen.bgcolor("black") 
 teknos.color("green")
 
-class Forma:
-   def Rajzol():
-      teknos.pendown()
-      for i in range(0,4):
-         teknos.left(90)
-         teknos.forward(szélesség)
-      teknos.penup()
+def Rajzol(szélesség):
+   teknos.pendown()
+   for i in range(0,4):
+      teknos.left(90)
+      teknos.forward(szélesség)
+   teknos.penup()
       
-   def ÚjNégyzet():
-      for i in range(0,2):
-         teknos.forward(10)
-         teknos.right(90)
-      teknos.right(180)
+def Újpoz():
+   for i in range(0,2):
+      teknos.forward(10)
+      teknos.right(90)
+   teknos.right(180)
 
 for i in range(0,5):
-   Forma.Rajzol()
-   Forma.ÚjNégyzet()
+   Rajzol(szélesség)
+   Újpoz()
    szélesség += 20
 
 screen.mainloop()
