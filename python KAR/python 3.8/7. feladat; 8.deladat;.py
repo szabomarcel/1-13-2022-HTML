@@ -22,14 +22,14 @@ done= True
 
 whiledone:
 
-ifvégsőSzög> 360:
+if végsőSzög> 360:
 
-végsőSzög= végsőSzög- 360
+    végsőSzög= végsőSzög- 360
 
-elifvégsőSzög< 0:
+elif végsőSzög< 0:
 
-végsőSzög= végsőSzög+ 360
+    végsőSzög= végsőSzög+ 360
 
 else:
-done= False
-print(f"A kalóz {végsőSzög} fokba néz.")
+    done= False
+    print(f"A kalóz {végsőSzög} fokba néz.")
