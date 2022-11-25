@@ -1,13 +1,18 @@
-a = 0
-b = 0
+import turtle
 
-isDone = True
-while isDone:
-    try:
-        a = int(input("Írja be az első befogadót osszát (cm)"))
-        a = int(input("Írja be az második befogadót osszát (cm)"))
-        isDone = False
-    except:
-        print("Rossz adatbevitel!")
+screen = turtle.Screen()
+t = turtle.Turtle()
 
-print(f"A derékszögű háromszög átfogója {(((a*a) + (b*b)) ** 0.5)}cm.")
+t.left(35)
+for i in range(0,5):
+   for i in range(0,5):
+      t.forward(100)
+      t.left(144)
+   t.penup()
+   t.forward(650)
+   t.right(144)
+   t.pendown()
+
+screen.mainloop()
+
+# Ugyan úgy mint az alap csillag
