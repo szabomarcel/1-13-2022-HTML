@@ -1,0 +1,1 @@
+print("Nagyon jó programozó leszek!" * 10000000)
