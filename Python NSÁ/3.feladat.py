@@ -1,18 +1,18 @@
 x = int(input("Írd be a pontszámot: "))
-egyek = ["elégtelen","elégséges","közepes","jó","jeles"]
-doga = float(input("Pontszám"))
+jegyek = ["elégtelen","elégséges","közepes","jó","jeles"]
 
 def érték(x):
-    jegy = 1
-    if doga x < 50:
+    jegy = 0
+    if  x < 50 and x <= 0:
+        jegy = 0
+    elif  x >= 50 and x < 60:
         jegy = 1
-    elif doga 50 <= x < 60:
+    elif  x >=60 and x < 70:
         jegy = 2
-    elif doga 60 <= x < 70:
+    elif  x >= 70 and x < 85:
         jegy = 3
-    elif doga 70 <= x < 80:
+    elif  x >= 85 and x <=100: 
         jegy = 4
-    elif doga 80 <= x < 90:
-        jegy = 5
     return jegy
-print(jegyek[Értékes(doga)])
+
+print(jegyek[érték(x)])
