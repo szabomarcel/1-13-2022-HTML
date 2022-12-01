@@ -1,5 +1,7 @@
-szam = int(input("Írj be egy egész számot: "))
-if szam % 3 == 0 and szam % 5 == 0:
+a = int(input("Írja be az első számot: "))
+b = int(input("Írja be a második számot: "))
+c = int(input("Írja be az harmadik számot: "))
+if a and b and c:
     print("Osztható mindkettővel")
 elif szam % 5 == 0:
     print("Osztható 5-tel")
