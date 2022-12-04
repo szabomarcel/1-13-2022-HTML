@@ -1,4 +1,4 @@
-importturtle
+import turtle
 
 screen= turtle.Screen()
 
