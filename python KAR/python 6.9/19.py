@@ -1,0 +1,1 @@
+def celsiusra_valtas():

@@ -1,0 +1,7 @@
+phrase = input("Enter the first line of a nursery rhyme: ")
+length = len(phrase)
+print("This has", length, "letters in it")
+start = int(input("Enter a starting number: "))
+end = int(input("Enter an end ember"))
+part = (phrase[start:end])
+print(part)
