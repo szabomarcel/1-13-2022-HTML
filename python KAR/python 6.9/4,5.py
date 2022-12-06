@@ -7,7 +7,7 @@ def NyaraloSzamolas(napNev, napQ):
         if napNev == napok[i].lower():
             napIndex = i
     if napQ < 0:
-        for i in range(0. abs(napQ)):
+        for i in range(0, abs(napQ)):
             if napIndex == 0:
                 napIndex = 6
             else:
