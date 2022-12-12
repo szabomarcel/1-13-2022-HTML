@@ -3,6 +3,6 @@ def osszeadas():
     a = 0
     for i in tömb:
         if i % 2 == 0:
-            a = a + i
+            a = a + 1
     print(a)
 print(osszeadas())
