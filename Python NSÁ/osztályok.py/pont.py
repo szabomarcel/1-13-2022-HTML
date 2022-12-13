@@ -9,5 +9,8 @@ class Pont:
         return self.x
 
 pont1 = Pont()
+pont2 = Pont()
 
+pont2.setX(100)
 print(pont1.getx())
+print(pont2.getx())
