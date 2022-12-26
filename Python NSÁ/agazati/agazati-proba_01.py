@@ -1,4 +1,4 @@
-def feladat1()
+def feladat1():
     szam1 = int(input("Írja ki az első számot: "))
     szam2 = int(input("Írja ki a második számot: "))
     if szam1 < 0 and szam2 < 0:
