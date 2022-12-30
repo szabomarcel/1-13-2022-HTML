@@ -6,9 +6,9 @@ def MagasE(mag):
 
 nev = input("Név:")
 while(nev!=""):
-    m=int(input("Magasság: "))
+    m = int(input("Magasság: "))
     if MagasE(m):
         print(nev,"magassabb, mint az átlag.")
     else:
         print(nev,"nem magassabb, mint az átlag.")
-    nev=input("Írd a neved: ")
+    nev = input("Írd a neved: ")
