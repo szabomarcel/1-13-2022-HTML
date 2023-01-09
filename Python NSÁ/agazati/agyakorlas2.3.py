@@ -14,11 +14,11 @@ class Szere:
             return "Nő"
 
 t = []
-for x in range():
+for x in range(3):
     a = input("Add meg a neved: ")
     b = input("Add meg a foglalkozásod: ")
     c = input("ADd meg a nemed: ")
     d = random.randint(1,50)
     t.append(Szere(a,b,c,d))
-for x in range():
+for x in range(3):
     print(t[x].nev,"")
