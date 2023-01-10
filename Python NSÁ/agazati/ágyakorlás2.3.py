@@ -1,4 +1,5 @@
 import random
+
 class Szere():
     def __init__(self, neve, foglalkozas, nem, szam):
         self.neve = neve

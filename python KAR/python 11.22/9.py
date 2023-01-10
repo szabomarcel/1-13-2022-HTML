@@ -1,0 +1,1 @@
+nota = "Esik eső, szép csendesen csepereg..."

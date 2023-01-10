@@ -8,11 +8,11 @@ kalóz= turtle.Turtle()
 
 végsőSzög= 0
 
-forszög in szögek:
+for szög in szögek:
 
-turtle.left(szög)
+    turtle.left(szög)
 
-turtle.forward(100)
+    turtle.forward(100)
 
 végsőSzög= végsőSzög+ szög
 
@@ -22,14 +22,14 @@ done= True
 
 whiledone:
 
-if végsőSzög> 360:
+    if végsőSzög> 360:
 
-    végsőSzög= végsőSzög- 360
+        végsőSzög= végsőSzög- 360
 
-elif végsőSzög< 0:
+    elif végsőSzög< 0:
 
-    végsőSzög= végsőSzög+ 360
+        végsőSzög= végsőSzög+ 360
 
-else:
-    done= False
+    else:
+        done= False
     print(f"A kalóz {végsőSzög} fokba néz.")
