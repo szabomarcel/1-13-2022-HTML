@@ -1,3 +1,6 @@
-# A start magyobb, mint a stop, hogyha a step kisebb mint a többi.
-
-list(range(10, 0, -2))
+def rule(start,stop,step):
+    if (start < stop and step > 0) or (start > stop and step < 0):
+        print(list(range(start, stop, step)))
+    else:
+        print("A paraméterek nem megfelelöek")
+rule(10, 0, -2)

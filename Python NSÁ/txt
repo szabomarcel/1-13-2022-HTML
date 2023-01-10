@@ -1,0 +1,30 @@
+#érték vizsgáló operátorok
+==
+===
+<
+>
+<=
+>=
+
+#érték adó operátorok
+=
+ 
+#váltózok érték típusai
+logikai: true
+egész(számok):8
+szöveg:"alma"
+lista:[]
+objectum:{}
+lebegő:pl: 8.3
+váltózo: Valamilyen értéket tároló memória terület melyre nével tudunk hivatkozni.
+függvény: Másnévem Metodus: Olya program kód részlet ami valamilyen műveletett végez és/vagy eredményt add vissza.
+paraméter lista: függvény deficionánál a bemenő paraméterek felsorolása vagy függvény hivásnál az át adott értékek vagy váltózok felsorolása.
+
+#KULCS szavak:
+def: fügvényt definiálunk vele.
+for: egy kezdő és véggel rendelkező ciklus.
+while: feltételel vagyis csak vég értékkel rendelkező ciklus.
+and: logikai és 
+or: logikai vagy
+
+for -> print ciklus
