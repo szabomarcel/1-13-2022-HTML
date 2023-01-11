@@ -18,7 +18,7 @@ objectum:{}
 lebegő:pl: 8.3
 váltózo: Valamilyen értéket tároló memória terület melyre nével tudunk hivatkozni.
 függvény: Másnévem Metodus: Olya program kód részlet ami valamilyen műveletett végez és/vagy eredményt add vissza.
-paraméter lista: függvény deficionánál a bemenő paraméterek felsorolása vagy függvény hivásnál az át adott értékek vagy váltózok felsorolása.
+paraméter lista: függvény deficionál a bemenő paraméterek felsorolása vagy függvény hivásnál az át adott értékek vagy váltózok felsorolása.
 
 #KULCS szavak:
 def: fügvényt definiálunk vele.
