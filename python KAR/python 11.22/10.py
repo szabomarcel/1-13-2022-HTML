@@ -10,7 +10,5 @@ teszt(cserel(s, "o", "ö") ==
 def cserel(s, regi, uj, nyomtatás):
     for i in range(0,len(s)):
         if s[i] == regi:
-            oldstring = 'regi'
-            newstring = oldstring.replace ('uj')
-            nyomtatás(newstring)
-            return True
+            s[i] = uj
+        return s
