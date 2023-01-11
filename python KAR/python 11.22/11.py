@@ -10,13 +10,10 @@ csere(a, b)
 print("csere függvény hívása után: a:", a, "b:", b)
 
 
-def cserel(a, b):
-    cserel = []
-    for i in range(0,len(a)):
-        if a == i:
-            cserel.append = a["regi"] == b["uj"]
-        return True
-    for x in range(0,len(a)):
-        print(cserel[i].a,"")
-
+def cserel(a, b, nyomtatas):
+    if a == b:
+        oldstring = 'a'
+        newstring = oldstring.replace ('b')
+        nyomtatas(newstring)
+    
 print("Hoppá!","Nem azt tette, amit szerettünk volna!")

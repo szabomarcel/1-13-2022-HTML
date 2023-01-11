@@ -7,11 +7,10 @@ teszt(cserel(s, "öm", "om") ==
 teszt(cserel(s, "o", "ö") ==
 "Kerek a gömb, gömbszerű!")
 
-def cserel(s, i):
-    cserel = []
+def cserel(s, regi, uj, nyomtatás):
     for i in range(0,len(s)):
-        if s == i:
-            cserel.append = s["regi"] == i["uj"]
-        return True
-    for x in range(0,len(s)):
-        print(cserel[i].s,"")
+        if s[i] == regi:
+            oldstring = 'regi'
+            newstring = oldstring.replace ('uj')
+            nyomtatás(newstring)
+            return True
