@@ -1,3 +1,6 @@
+a = 3
+b = 5
 def tukrozes_x_tengelyre(pont):
-    pont(3, 5)
-    print
+    pont = 20
+tukrozes_x_tengelyre(a, b)
+print(a, b)
