@@ -1,5 +1,18 @@
-sajatmodul1 =  
-sajatmodul2 = 
+import evek
 
+a = int(input("Írd be az elöző születésnapod!"))
+b = int(input("Írd be az elöző születésnapod!"))
+if a > b:
+    print(a,"nagyobb mint az elöző év!",b)
+elif a < b:
+    print(b,"nagyobb mint az elöző év!",a)
 
-print( (sajatmodul2.sajatev - sajatmodul1.sajatev) == (sajatmodul2.ev - sajatmodul1.ev) )
+def ev(ev):
+    if ev >= "ev":
+        return True
+    elif ev <= "ev":
+        return False
+
+t = []
+for x in range(3):
+    print(t(x).ev,"")
