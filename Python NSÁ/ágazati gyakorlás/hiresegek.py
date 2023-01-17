@@ -1,10 +1,10 @@
 import random
 
 class hiresegek:
-    def __init__(self,neve,foglalkozas,neme,szam):
+    def __init__(self,neve,foglalkozas,nem,szam):
         self.neve = neve
         self.foglalkozas = foglalkozas
-        self.neme = neme
+        self.nem = nem
         self.szam = szam
 
     def neme(neme):
@@ -15,10 +15,10 @@ class hiresegek:
 
 t = []
 for x in range(3):
-    a = int(input("Írd be a nevét!"))
-    b = int(input("Írd be a foglalkozasat!"))
-    c = int(input("Írd be a nemét!"))
-    d = random.randint(1.50)
+    a = input("Írd be a nevét!")
+    b = input("Írd be a foglalkozasat!")
+    c = input("Írd be a nemét!")
+    d = random.randint(1,50)
     t.append(hiresegek(a, b, c, d))
 for x in range(3):
-    print(t(x).nev,"")
+    print(hiresegek.neme(t[x].nem),t[x].nev,"egy hireseg",t[x].foglakozas, t[x].szam)
