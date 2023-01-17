@@ -8,7 +8,7 @@ név = input("Írja be a nevét!")
 while(név!=""):
     v = int(input("Írja be a pontszámot!"))
     if vizsga(v):
-        print("A vizsga sikeres!")
+        print(név,"A vizsga sikeres!")
     else:
-        print("A vizsga sikertelen!")
+        print(név,"A vizsga sikertelen!")
     név = (input("Írja be a nevét!"))
