@@ -33,30 +33,35 @@ footer {
     text-align: center;
     color: white;
 }
-h2{
+h2 {
     color:green;
 }
-.bal{
+.bal {
     float: left;
     width: 30%;
 }
 
-.jobb{
+.jobb {
     float: right;
     width: 70%;
 }
-
 table {
+    margin: auto;
     border-collapse: collapse;
     width: 50%;
-  }
-  
-  tr{
-    background: #2f1624, #8a1538, #ab1e4c;
-    padding: 30px;
-    text-transform: uppercase;
-  }
-  td {
-    text-align: left;
-    padding: 8px;
-  }
+}
+
+th {
+    background-color: #8a1538;
+    color:black;
+}
+section {
+    margin-top: 20px;
+}
+
+p {
+    text-align: justify;
+}
+u {
+    list-style-type: circle;
+}
